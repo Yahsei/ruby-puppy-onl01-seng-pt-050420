@@ -15,6 +15,14 @@ class Dog
   def self.all
     @@all.each do |d|
       puts d.name
-    end
+      
+ def save
+    @@all << self
   end
+
+  def name
+    @name
+  end
+
+end 
 end
