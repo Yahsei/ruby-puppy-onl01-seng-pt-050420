@@ -13,8 +13,8 @@ class Dog
    @@all.clear
  end
  
-  def self.all
-    @@all.each do |dog|
+  def self.print_all
+    @@all.each do |x|
       print dog.name
   end
 end
